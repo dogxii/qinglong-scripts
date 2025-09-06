@@ -1,4 +1,4 @@
-/* 2025.9.6 Dogxi: 别人混淆过的，除了会关注某个人外，能够正常使用，无其他风险 */
+/* 2025.9.6 Dogxi: 别人混淆过的，除了会关注某个人外（已删除），能够正常使用，无其他风险 */
 /*
 小黑盒签到 v2.2
 
@@ -283,56 +283,6 @@ async function getHkey(
         null
       );
     else _0x59e1f6[_0x2f215e(0xfc, "&&(w")](_0x2f215e(0x12a, "lp*5"));
-  }
-}
-async function follow(_0x493df5, _0x590927) {
-  var _0x11681e = _0x434525,
-    _0x43b8c2 = {
-      sPTfZ: _0x11681e(0xb5, "kNO8"),
-      TeKDJ: function (_0x3c36ad, _0x531809, _0x2c0f4f) {
-        return _0x3c36ad(_0x531809, _0x2c0f4f);
-      },
-      ioaMO: _0x11681e(0x14b, "kNO8"),
-      AWcph: _0x11681e(0x159, "VqjJ"),
-      XcvVS: _0x11681e(0x114, ")qDB"),
-    },
-    _0x1f8d76 = _0x493df5[_0x11681e(0x177, "WYcb")]("#"),
-    _0x379fe7 = _0x1f8d76[0x0],
-    _0x493df5 = _0x1f8d76[0x1],
-    _0x276d76 = _0x43b8c2[_0x11681e(0x94, "WYcb")],
-    _0x2e1179 = await _0x43b8c2[_0x11681e(0xe3, "t82E")](
-      getHkey,
-      _0x379fe7,
-      0x3,
-    );
-  ((hkey = _0x2e1179[_0x11681e(0xa1, "ugsC")]),
-    (timestamp = _0x2e1179[_0x11681e(0x188, "3l6I")]));
-  var _0x1e1f38 = {
-    headers: {
-      Referer: _0x43b8c2[_0x11681e(0x17e, "T7S1")],
-      "User-Agent": _0x11681e(0x141, "QRvg"),
-      Host: _0x43b8c2[_0x11681e(0x129, "Sq)V")],
-      Connection: "Keep-Alive",
-      Accept: _0x43b8c2["XcvVS"],
-      Cookie: _0x493df5,
-    },
-    timeout: 0x1388,
-  };
-  try {
-    var _0xa6913a = await axios["post"](
-      _0x11681e(0xf1, "g5Pn") +
-        _0x379fe7 +
-        _0x11681e(0x15d, ")fWV") +
-        hkey +
-        _0x11681e(0x175, "Sq)V") +
-        timestamp +
-        _0x11681e(0xf2, "J4Fu"),
-      _0x276d76,
-      _0x1e1f38,
-    );
-    return _0xa6913a["data"];
-  } catch (_0x17e733) {
-    return (console["error"](_0x11681e(0xfd, "y8dc"), _0x17e733), null);
   }
 }
 async function getTaskList(_0x55db29, _0x40394) {
@@ -654,8 +604,6 @@ async function main() {
     );
     _0x208bb2++
   ) {
-    (follow(_0x39ae1a[_0x208bb2], _0x208bb2 + 0x1),
-      console[_0x1ab581(0x16b, "J7oR")](_0x1ab581(0x136, "oJJX")));
     var _0x3b29d1 = await _0x38661b[_0x1ab581(0x109, "T7S1")](
       getSignIn,
       _0x39ae1a[_0x208bb2],
