@@ -1,6 +1,7 @@
 """
 2025.9.6 Dogxi
 仍能使用 部分失效 可使用获取token地址: https://avrinbai.cn/pg/
+需要安装依赖 urllib3 requests requests_toolbelt
 """
 
 """
